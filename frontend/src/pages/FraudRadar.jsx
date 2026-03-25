@@ -76,7 +76,7 @@ export default function FraudRadar() {
               <div
                 key={s.sector_name}
                 className="sector-card"
-                style={{ borderColor: riskColor(s.risk_level) }}
+                style={{ '--card-accent': riskColor(s.risk_level) }}
                 onClick={() => navigate(`/?sector=${s.sector_name}`)}
               >
                 <div className="sector-name">{s.sector_name}</div>

@@ -12,18 +12,22 @@ export default function FraudScore({ composite_score, risk_level, breakdown, ben
   const circumference = 2 * Math.PI * 80
   const progress = (composite_score / 100) * circumference
 
+  const glowColor = risk_level === 'Low' ? 'rgba(0, 255, 136, 0.25)' :
+                     risk_level === 'Medium' ? 'rgba(255, 165, 0, 0.25)' :
+                     'rgba(255, 68, 68, 0.3)'
+
   return (
-    <div className="fraud-score">
+    <div className="fraud-score" style={{ '--score-glow': glowColor }}>
       <h3 className="component-label">COMPOSITE FRAUD RISK</h3>
 
       <div className="score-ring-container">
         <svg viewBox="0 0 200 200" className="score-ring">
-          <circle cx="100" cy="100" r="80" fill="none" stroke="#1a1f2e" strokeWidth="12" />
+          <circle cx="100" cy="100" r="80" fill="none" stroke="#1a1f2e" strokeWidth="10" />
           <circle
             cx="100" cy="100" r="80"
             fill="none"
             stroke={color}
-            strokeWidth="12"
+            strokeWidth="10"
             strokeDasharray={circumference}
             strokeDashoffset={circumference - progress}
             strokeLinecap="round"
