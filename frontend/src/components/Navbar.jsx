@@ -162,7 +162,7 @@ export default function Navbar() {
         {/* App pages */}
         <PageLink to="/radar"    label="Fraud Radar"      />
         <PageLink to="/critical" label="Critical Section" />
-        <PageLink to="/satyam"   label="Satyam Case" danger />
+        <PageLink to="/cases"   label="Real Cases" danger />
 
       </div>
 

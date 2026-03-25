@@ -14,6 +14,7 @@ ALLOWED_ORIGINS = [
     "http://localhost:3000",
     # Set FRONTEND_URL env var on Railway to your Vercel URL
     # e.g. https://auditgpt.vercel.app
+    "https://auditgpt-v328.vercel.app/"
 ]
 frontend_url = os.getenv("FRONTEND_URL")
 if frontend_url:
