@@ -434,7 +434,7 @@ export default function FraudRadar() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#070b12", color: "#c8d0e0", fontFamily: "'JetBrains Mono', monospace", paddingBottom: 80 }}>
-      <div style={overlayStyle} />
+      {/* <div style={overlayStyle} /> */}
 
       {/* NAV */}
       <div style={{
