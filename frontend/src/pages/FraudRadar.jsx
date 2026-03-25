@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
-// const API = "http://localhost:8000/api";
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
-
+// const API = "auditgpt-back.vercel.app/api";
+// const API = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
+import { API } from "../api"
 // ── helpers ────────────────────────────────────────────────────────────────
 const riskMeta = (score) => {
   if (score <= 25) return { label: "LOW",      color: "#00ff88", glow: "0 0 12px #00ff8866", tier: 0 };

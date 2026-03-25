@@ -624,8 +624,8 @@ import { useParams, useNavigate } from "react-router-dom";
 // import SatyamReplaySection from "../components/SatyamReplaySection"
 import Navbar from "../components/Navbar";
 // const API = "http://localhost:8000/api";
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
-
+// const API = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
+import { API } from "../api"
 // ─── utils ──────────────────────────────────────────────────────────────────
 const riskOf = (s) => {
   const v = Number(s) || 0;
