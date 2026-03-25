@@ -2,14 +2,14 @@
   "company_id": "BHARTIARTL",
   "company_name": "Bharti Airtel",
   "sector": "Telecom",
-  "composite_score": 9.71,
+  "composite_score": 12.07,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.8034,
+    "m_score": -2.4671,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 1.3333,
+      "GMI": 1.0562,
       "AQI": 1.121,
       "SGI": 1.1534,
       "DEPI": 1.0984,
@@ -205,7 +205,7 @@
   },
   "red_flags": [],
   "breakdown": {
-    "beneish_normalized": 3.93,
+    "beneish_normalized": 10.66,
     "altman_normalized": 27.79,
     "industry_z_normalized": 0.0,
     "trend_break_normalized": 0.0

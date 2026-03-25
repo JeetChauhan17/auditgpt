@@ -2,14 +2,14 @@
   "company_id": "DMART",
   "company_name": "Avenue Supermarts",
   "sector": "Retail",
-  "composite_score": 5.54,
+  "composite_score": 13.33,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.3273,
+    "m_score": -2.2916,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 1.0,
+      "GMI": 1.0676,
       "AQI": 1.052,
       "SGI": 1.1687,
       "DEPI": 1.0143,
@@ -129,32 +129,32 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -1.0,
+      "Mar 2015": -0.8729,
+      "Mar 2016": -1.1209,
+      "Mar 2017": -0.5774,
+      "Mar 2018": -1.0,
+      "Mar 2019": -0.5998,
+      "Mar 2020": -0.6182,
+      "Mar 2021": -0.6172,
+      "Mar 2022": -0.5801,
+      "Mar 2023": -0.582,
+      "Mar 2024": -0.5654,
+      "Mar 2025": -0.6437
     },
     "Inventory Turnover": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -1.0499,
+      "Mar 2015": -1.0596,
+      "Mar 2016": -0.9469,
+      "Mar 2017": -1.0641,
+      "Mar 2018": -0.8107,
+      "Mar 2019": -1.426,
+      "Mar 2020": -1.2721,
+      "Mar 2021": -1.098,
+      "Mar 2022": -1.2062,
+      "Mar 2023": -1.144,
+      "Mar 2024": -0.8431,
+      "Mar 2025": -1.0176
     },
     "Asset Turnover": {
       "Mar 2014": null,
@@ -226,13 +226,32 @@
     }
   ],
   "breakdown": {
-    "beneish_normalized": 13.45,
+    "beneish_normalized": 14.17,
     "altman_normalized": 0,
-    "industry_z_normalized": 0.0,
+    "industry_z_normalized": 30.16,
     "trend_break_normalized": 8.33
   },
   "sentiment_trend": {},
-  "peer_companies": [],
+  "peer_companies": [
+    {
+      "name": "Trent",
+      "sector": "Retail",
+      "composite_score": 9.24,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Aditya Birla Fashion",
+      "sector": "Retail",
+      "composite_score": 28.63,
+      "fraud_risk": "Medium"
+    },
+    {
+      "name": "Shoppers Stop",
+      "sector": "Retail",
+      "composite_score": 24.64,
+      "fraud_risk": "Low"
+    }
+  ],
   "financial_data": {
     "profit_loss": {
       "Sales+": {

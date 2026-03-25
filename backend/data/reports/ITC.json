@@ -2,14 +2,14 @@
   "company_id": "ITC",
   "company_name": "ITC",
   "sector": "FMCG",
-  "composite_score": 10.14,
+  "composite_score": 16.98,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -1.5514,
+    "m_score": -1.4669,
     "manipulation_likely": true,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 1.0455,
+      "GMI": 1.0809,
       "AQI": 0.8228,
       "SGI": 1.1088,
       "DEPI": 0.7419,
@@ -129,32 +129,32 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": 0.5519,
+      "Mar 2015": 0.2905,
+      "Mar 2016": 0.0,
+      "Mar 2017": 0.2731,
+      "Mar 2018": 0.2273,
+      "Mar 2019": 0.6447,
+      "Mar 2020": 0.0216,
+      "Mar 2021": 0.4134,
+      "Mar 2022": -0.1893,
+      "Mar 2023": -0.0808,
+      "Mar 2024": 0.8616,
+      "Mar 2025": 0.9735
     },
     "Inventory Turnover": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": 1.1268,
+      "Mar 2015": 1.0442,
+      "Mar 2016": 1.2199,
+      "Mar 2017": 0.973,
+      "Mar 2018": 1.0741,
+      "Mar 2019": 1.0093,
+      "Mar 2020": 1.3125,
+      "Mar 2021": 1.2518,
+      "Mar 2022": 1.0452,
+      "Mar 2023": 0.8993,
+      "Mar 2024": 1.4317,
+      "Mar 2025": 1.0696
     },
     "Asset Turnover": {
       "Mar 2014": null,
@@ -209,22 +209,22 @@
       "severity": "High",
       "first_appeared": 2025,
       "evolution": [
-        "M-Score = -1.5514 (threshold: -1.78)"
+        "M-Score = -1.4669 (threshold: -1.78)"
       ],
       "industry_context": "M-Score > -1.78 suggests earnings manipulation per Beneish (1999)",
       "citation": {
         "filing_year": 2025,
         "filing_type": "P&L",
         "metric_name": "M-Score",
-        "reported_value": -1.5514,
+        "reported_value": -1.4669,
         "source": "Computed from Screener.in data"
       }
     }
   ],
   "breakdown": {
-    "beneish_normalized": 28.97,
+    "beneish_normalized": 30.66,
     "altman_normalized": 0,
-    "industry_z_normalized": 0.0,
+    "industry_z_normalized": 24.98,
     "trend_break_normalized": 0.0
   },
   "sentiment_trend": {},
@@ -232,7 +232,31 @@
     {
       "name": "Hindustan Unilever",
       "sector": "FMCG",
-      "composite_score": 3.8,
+      "composite_score": 10.17,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Nestle India",
+      "sector": "FMCG",
+      "composite_score": 10.2,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Britannia Industries",
+      "sector": "FMCG",
+      "composite_score": 12.77,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Varun Beverages",
+      "sector": "FMCG",
+      "composite_score": 0,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Tata Consumer Products",
+      "sector": "FMCG",
+      "composite_score": 10.45,
       "fraud_risk": "Low"
     }
   ],

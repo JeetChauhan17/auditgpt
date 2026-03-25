@@ -2,14 +2,14 @@
   "company_id": "TITAN",
   "company_name": "Titan Company",
   "sector": "Consumer Durables",
-  "composite_score": 8.18,
+  "composite_score": 19.11,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -1.9508,
+    "m_score": -2.0294,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 0.8571,
+      "GMI": 1.0999,
       "AQI": 0.85,
       "SGI": 1.1835,
       "DEPI": 0.9334,
@@ -129,32 +129,32 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -1.1613,
+      "Mar 2015": -1.0727,
+      "Mar 2016": -0.8985,
+      "Mar 2017": -1.1867,
+      "Mar 2018": -1.2754,
+      "Mar 2019": -1.2823,
+      "Mar 2020": -1.2669,
+      "Mar 2021": -1.521,
+      "Mar 2022": -1.6127,
+      "Mar 2023": -1.5707,
+      "Mar 2024": -1.6792,
+      "Mar 2025": -1.5188
     },
     "Inventory Turnover": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": 1.3882,
+      "Mar 2015": 1.4995,
+      "Mar 2016": 1.7865,
+      "Mar 2017": 1.2791,
+      "Mar 2018": 1.2514,
+      "Mar 2019": 1.4134,
+      "Mar 2020": 1.4747,
+      "Mar 2021": 1.0352,
+      "Mar 2022": 1.4617,
+      "Mar 2023": 1.4649,
+      "Mar 2024": 1.3981,
+      "Mar 2025": 1.5785
     },
     "Asset Turnover": {
       "Mar 2014": null,
@@ -226,9 +226,9 @@
     }
   ],
   "breakdown": {
-    "beneish_normalized": 20.98,
+    "beneish_normalized": 19.41,
     "altman_normalized": 0,
-    "industry_z_normalized": 0.0,
+    "industry_z_normalized": 45.94,
     "trend_break_normalized": 8.33
   },
   "sentiment_trend": {},
@@ -236,7 +236,31 @@
     {
       "name": "Asian Paints",
       "sector": "Consumer Durables",
-      "composite_score": 4.44,
+      "composite_score": 6.72,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Polycab India",
+      "sector": "Consumer Durables",
+      "composite_score": 12.13,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Havells India",
+      "sector": "Consumer Durables",
+      "composite_score": 9.37,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Dixon Technologies",
+      "sector": "Consumer Durables",
+      "composite_score": 22.6,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Berger Paints",
+      "sector": "Consumer Durables",
+      "composite_score": 10.15,
       "fraud_risk": "Low"
     }
   ],

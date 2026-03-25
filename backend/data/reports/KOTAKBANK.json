@@ -252,6 +252,12 @@
       "sector": "Banking",
       "composite_score": 31.28,
       "fraud_risk": "Medium"
+    },
+    {
+      "name": "Bank of Baroda",
+      "sector": "Banking",
+      "composite_score": 33.62,
+      "fraud_risk": "Medium"
     }
   ],
   "financial_data": {

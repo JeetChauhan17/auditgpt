@@ -2,14 +2,14 @@
   "company_id": "RELIANCE",
   "company_name": "Reliance Industries",
   "sector": "Oil & Gas",
-  "composite_score": 15.93,
+  "composite_score": 23.67,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.5513,
+    "m_score": -2.3121,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 1.2308,
+      "GMI": 1.0509,
       "AQI": 1.1534,
       "SGI": 1.0709,
       "DEPI": 1.2119,
@@ -129,32 +129,32 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -0.6059,
+      "Mar 2015": -0.5909,
+      "Mar 2016": -0.6779,
+      "Mar 2017": -0.4172,
+      "Mar 2018": 0.4244,
+      "Mar 2019": 1.0233,
+      "Mar 2020": 0.1468,
+      "Mar 2021": -0.1182,
+      "Mar 2022": -0.2591,
+      "Mar 2023": 0.0816,
+      "Mar 2024": 0.1351,
+      "Mar 2025": 0.4453
     },
     "Inventory Turnover": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": 0.3819,
+      "Mar 2015": 1.1814,
+      "Mar 2016": 0.9858,
+      "Mar 2017": 1.0101,
+      "Mar 2018": 1.2383,
+      "Mar 2019": 1.0742,
+      "Mar 2020": 1.3623,
+      "Mar 2021": 0.9199,
+      "Mar 2022": 0.757,
+      "Mar 2023": 1.5077,
+      "Mar 2024": 1.2139,
+      "Mar 2025": 0.9036
     },
     "Asset Turnover": {
       "Mar 2014": null,
@@ -226,13 +226,44 @@
     }
   ],
   "breakdown": {
-    "beneish_normalized": 8.97,
+    "beneish_normalized": 13.76,
     "altman_normalized": 39.84,
-    "industry_z_normalized": 0.0,
+    "industry_z_normalized": 24.25,
     "trend_break_normalized": 8.33
   },
   "sentiment_trend": {},
-  "peer_companies": [],
+  "peer_companies": [
+    {
+      "name": "ONGC",
+      "sector": "Oil & Gas",
+      "composite_score": 22.12,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Indian Oil Corporation",
+      "sector": "Oil & Gas",
+      "composite_score": 25.37,
+      "fraud_risk": "Medium"
+    },
+    {
+      "name": "Bharat Petroleum",
+      "sector": "Oil & Gas",
+      "composite_score": 16.54,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "GAIL India",
+      "sector": "Oil & Gas",
+      "composite_score": 19.62,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Hindustan Petroleum",
+      "sector": "Oil & Gas",
+      "composite_score": 19.59,
+      "fraud_risk": "Low"
+    }
+  ],
   "financial_data": {
     "profit_loss": {
       "Sales+": {

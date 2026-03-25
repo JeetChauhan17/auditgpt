@@ -81,37 +81,70 @@ def get_sorted_years(data: dict) -> list[str]:
 
 # ── Beneish M-Score ──────────────────────────────────────────────────────
 
+# def compute_dsri(data: dict, year: str, prev_year: str) -> float | None:
+#     """Days Sales in Receivables Index."""
+#     receivables = get_metric_values(data, "Debtors")
+#     revenue = get_metric_values(data, "Sales")
+#     recv_t = receivables.get(year)
+#     recv_p = receivables.get(prev_year)
+#     rev_t = revenue.get(year)
+#     rev_p = revenue.get(prev_year)
+#     if None in (recv_t, recv_p, rev_t, rev_p) or rev_t == 0 or rev_p == 0:
+#         return None
+#     dsr_t = recv_t / rev_t
+#     dsr_p = recv_p / rev_p
+#     return safe_div(dsr_t, dsr_p, None)
+
 def compute_dsri(data: dict, year: str, prev_year: str) -> float | None:
-    """Days Sales in Receivables Index."""
+    """Days Sales in Receivables Index. Falls back to Debtor Days if balance sheet field missing."""
     receivables = get_metric_values(data, "Debtors")
     revenue = get_metric_values(data, "Sales")
     recv_t = receivables.get(year)
     recv_p = receivables.get(prev_year)
     rev_t = revenue.get(year)
     rev_p = revenue.get(prev_year)
-    if None in (recv_t, recv_p, rev_t, rev_p) or rev_t == 0 or rev_p == 0:
-        return None
-    dsr_t = recv_t / rev_t
-    dsr_p = recv_p / rev_p
-    return safe_div(dsr_t, dsr_p, None)
+    if None not in (recv_t, recv_p, rev_t, rev_p) and rev_t != 0 and rev_p != 0:
+        return safe_div(recv_t / rev_t, recv_p / rev_p, None)
+
+    # Fallback: Debtor Days is receivables/revenue * 365 — ratio of ratios gives DSRI directly
+    dd = get_metric_values(data, "Debtor Days")
+    dd_t = dd.get(year)
+    dd_p = dd.get(prev_year)
+    if dd_t is not None and dd_p is not None and dd_p != 0:
+        return safe_div(dd_t, dd_p, None)
+    return None
+
+
+# def compute_gmi(data: dict, year: str, prev_year: str) -> float | None:
+#     """Gross Margin Index."""
+#     revenue = get_metric_values(data, "Sales")
+#     # Use operating profit as proxy for gross profit
+#     cogs_metrics = ["Material Cost %", "Manufacturing Cost %"]
+#     rev_t = revenue.get(year)
+#     rev_p = revenue.get(prev_year)
+
+#     # Try direct OPM
+#     opm = get_metric_values(data, "OPM")
+#     opm_t = opm.get(year)
+#     opm_p = opm.get(prev_year)
+#     if opm_t is not None and opm_p is not None and opm_t != 0:
+#         return safe_div(opm_p, opm_t, None)
+#     return None
 
 
 def compute_gmi(data: dict, year: str, prev_year: str) -> float | None:
-    """Gross Margin Index."""
+    """Gross Margin Index — uses Operating Profit / Sales since OPM % is often null."""
+    op = get_metric_values(data, "Operating Profit")
     revenue = get_metric_values(data, "Sales")
-    # Use operating profit as proxy for gross profit
-    cogs_metrics = ["Material Cost %", "Manufacturing Cost %"]
+    op_t = op.get(year)
+    op_p = op.get(prev_year)
     rev_t = revenue.get(year)
     rev_p = revenue.get(prev_year)
-
-    # Try direct OPM
-    opm = get_metric_values(data, "OPM")
-    opm_t = opm.get(year)
-    opm_p = opm.get(prev_year)
-    if opm_t is not None and opm_p is not None and opm_t != 0:
-        return safe_div(opm_p, opm_t, None)
-    return None
-
+    if None in (op_t, op_p, rev_t, rev_p) or rev_t == 0 or rev_p == 0:
+        return None
+    gm_t = op_t / rev_t
+    gm_p = op_p / rev_p
+    return safe_div(gm_p, gm_t, None)  # GMI = prior year margin / current year margin
 
 def compute_aqi(data: dict, year: str, prev_year: str) -> float | None:
     """Asset Quality Index."""
@@ -436,7 +469,8 @@ def detect_trend_breaks(company_data: dict, threshold: float = 2.0) -> dict:
         if not values:
             continue
 
-        sorted_years = sorted(values.keys())
+        # sorted_years = sorted(values.keys())
+        sorted_years = sorted([y for y in values.keys() if y.startswith("Mar ")])
         if len(sorted_years) < 3:
             continue
 

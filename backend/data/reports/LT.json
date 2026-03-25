@@ -2,14 +2,14 @@
   "company_id": "LT",
   "company_name": "Larsen & Toubro",
   "sector": "Construction",
-  "composite_score": 17.28,
+  "composite_score": 16.85,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.2835,
+    "m_score": -2.3455,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 0.9506,
+      "GMI": 0.9687,
       "AQI": 0.9185,
       "SGI": 1.1566,
       "DEPI": 0.9228,
@@ -205,7 +205,7 @@
   },
   "red_flags": [],
   "breakdown": {
-    "beneish_normalized": 14.33,
+    "beneish_normalized": 13.09,
     "altman_normalized": 40.89,
     "industry_z_normalized": 0.0,
     "trend_break_normalized": 0.0

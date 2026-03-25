@@ -2,14 +2,14 @@
   "company_id": "SUNPHARMA",
   "company_name": "Sun Pharma",
   "sector": "Pharmaceuticals",
-  "composite_score": 3.51,
+  "composite_score": 9.54,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.4984,
+    "m_score": -2.4684,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 1.0706,
+      "GMI": 0.9338,
       "AQI": 0.902,
       "SGI": 1.0841,
       "DEPI": 0.9682,
@@ -129,32 +129,32 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -1.3993,
+      "Mar 2015": -0.8149,
+      "Mar 2016": -0.0369,
+      "Mar 2017": 0.2269,
+      "Mar 2018": 0.6458,
+      "Mar 2019": 0.7275,
+      "Mar 2020": 0.3193,
+      "Mar 2021": 0.684,
+      "Mar 2022": 0.485,
+      "Mar 2023": 0.4961,
+      "Mar 2024": 0.0299,
+      "Mar 2025": 0.2649
     },
     "Inventory Turnover": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": 1.4109,
+      "Mar 2015": 0.38,
+      "Mar 2016": 1.748,
+      "Mar 2017": 0.6811,
+      "Mar 2018": 0.4027,
+      "Mar 2019": 1.3261,
+      "Mar 2020": 0.471,
+      "Mar 2021": 0.6541,
+      "Mar 2022": 0.3773,
+      "Mar 2023": 1.238,
+      "Mar 2024": 0.7809,
+      "Mar 2025": 1.168
     },
     "Asset Turnover": {
       "Mar 2014": null,
@@ -205,13 +205,44 @@
   },
   "red_flags": [],
   "breakdown": {
-    "beneish_normalized": 10.03,
+    "beneish_normalized": 10.63,
     "altman_normalized": 0,
-    "industry_z_normalized": 0.0,
+    "industry_z_normalized": 23.29,
     "trend_break_normalized": 0.0
   },
   "sentiment_trend": {},
-  "peer_companies": [],
+  "peer_companies": [
+    {
+      "name": "Divi's Laboratories",
+      "sector": "Pharmaceuticals",
+      "composite_score": 10.05,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Torrent Pharma",
+      "sector": "Pharmaceuticals",
+      "composite_score": 10.51,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Lupin",
+      "sector": "Pharmaceuticals",
+      "composite_score": 10.09,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Dr Reddy's Labs",
+      "sector": "Pharmaceuticals",
+      "composite_score": 10.89,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Cipla",
+      "sector": "Pharmaceuticals",
+      "composite_score": 13.49,
+      "fraud_risk": "Low"
+    }
+  ],
   "financial_data": {
     "profit_loss": {
       "Sales+": {

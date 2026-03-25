@@ -2,14 +2,14 @@
   "company_id": "ULTRACEMCO",
   "company_name": "UltraTech Cement",
   "sector": "Cement",
-  "composite_score": 2.94,
+  "composite_score": 9.34,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.6993,
+    "m_score": -2.4027,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 1.2727,
+      "GMI": 1.0864,
       "AQI": 1.1344,
       "SGI": 1.0712,
       "DEPI": 1.1696,
@@ -129,32 +129,32 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -0.8729,
+      "Mar 2015": -0.8729,
+      "Mar 2016": -0.4047,
+      "Mar 2017": -0.3223,
+      "Mar 2018": -0.2789,
+      "Mar 2019": -1.3085,
+      "Mar 2020": -1.4058,
+      "Mar 2021": -0.1508,
+      "Mar 2022": 0.5,
+      "Mar 2023": 0.6674,
+      "Mar 2024": 0.1641,
+      "Mar 2025": 0.6946
     },
     "Inventory Turnover": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -0.2931,
+      "Mar 2015": 0.3872,
+      "Mar 2016": -0.6252,
+      "Mar 2017": -0.5904,
+      "Mar 2018": -0.4822,
+      "Mar 2019": -0.449,
+      "Mar 2020": -0.4607,
+      "Mar 2021": -0.5252,
+      "Mar 2022": -0.5232,
+      "Mar 2023": -0.1785,
+      "Mar 2024": -0.1296,
+      "Mar 2025": 0.1604
     },
     "Asset Turnover": {
       "Mar 2014": null,
@@ -226,13 +226,44 @@
     }
   ],
   "breakdown": {
-    "beneish_normalized": 6.01,
+    "beneish_normalized": 11.95,
     "altman_normalized": 0,
-    "industry_z_normalized": 0.0,
+    "industry_z_normalized": 17.29,
     "trend_break_normalized": 8.33
   },
   "sentiment_trend": {},
-  "peer_companies": [],
+  "peer_companies": [
+    {
+      "name": "Grasim Industries",
+      "sector": "Cement",
+      "composite_score": 35.49,
+      "fraud_risk": "Medium"
+    },
+    {
+      "name": "Ambuja Cements",
+      "sector": "Cement",
+      "composite_score": 15.62,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Shree Cement",
+      "sector": "Cement",
+      "composite_score": 11.75,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "ACC",
+      "sector": "Cement",
+      "composite_score": 14.82,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Ramco Cements",
+      "sector": "Cement",
+      "composite_score": 16.43,
+      "fraud_risk": "Low"
+    }
+  ],
   "financial_data": {
     "profit_loss": {
       "Sales+": {

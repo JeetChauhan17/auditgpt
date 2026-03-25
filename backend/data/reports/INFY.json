@@ -2,14 +2,14 @@
   "company_id": "INFY",
   "company_name": "Infosys",
   "sector": "IT Services",
-  "composite_score": 9.74,
+  "composite_score": 6.45,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.6555,
+    "m_score": -2.6891,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 0.9722,
+      "GMI": 0.9847,
       "AQI": 1.0417,
       "SGI": 1.0606,
       "DEPI": 1.0767,
@@ -129,18 +129,18 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": -1.0596,
-      "Mar 2017": -0.2182,
-      "Mar 2018": -0.8729,
-      "Mar 2019": -1.0,
-      "Mar 2020": 0.8729,
-      "Mar 2021": -0.4148,
-      "Mar 2022": -1.0596,
-      "Mar 2023": -1.0701,
-      "Mar 2024": -1.1014,
-      "Mar 2025": -1.1305
+      "Mar 2014": -1.2126,
+      "Mar 2015": -1.0451,
+      "Mar 2016": -1.0292,
+      "Mar 2017": 0.324,
+      "Mar 2018": -0.1788,
+      "Mar 2019": -0.0461,
+      "Mar 2020": 0.7505,
+      "Mar 2021": 0.4099,
+      "Mar 2022": -0.3913,
+      "Mar 2023": -0.6974,
+      "Mar 2024": 0.0579,
+      "Mar 2025": 0.0113
     },
     "Inventory Turnover": {
       "Mar 2014": null,
@@ -205,9 +205,9 @@
   },
   "red_flags": [],
   "breakdown": {
-    "beneish_normalized": 6.89,
+    "beneish_normalized": 6.22,
     "altman_normalized": 0,
-    "industry_z_normalized": 29.33,
+    "industry_z_normalized": 17.09,
     "trend_break_normalized": 0.0
   },
   "sentiment_trend": {},
@@ -215,13 +215,31 @@
     {
       "name": "Tata Consultancy Services",
       "sector": "IT Services",
-      "composite_score": 9.49,
+      "composite_score": 10.39,
       "fraud_risk": "Low"
     },
     {
       "name": "HCL Technologies",
       "sector": "IT Services",
-      "composite_score": 9.45,
+      "composite_score": 10.12,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Wipro",
+      "sector": "IT Services",
+      "composite_score": 10.25,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Tech Mahindra",
+      "sector": "IT Services",
+      "composite_score": 9.94,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Persistent Systems",
+      "sector": "IT Services",
+      "composite_score": 14.75,
       "fraud_risk": "Low"
     }
   ],

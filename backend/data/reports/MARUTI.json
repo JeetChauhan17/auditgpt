@@ -2,14 +2,14 @@
   "company_id": "MARUTI",
   "company_name": "Maruti Suzuki",
   "sector": "Automobiles",
-  "composite_score": 5.55,
+  "composite_score": 14.97,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.326,
+    "m_score": -2.0231,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 1.3333,
+      "GMI": 0.9928,
       "AQI": 1.0342,
       "SGI": 1.0779,
       "DEPI": 1.092,
@@ -129,32 +129,32 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -0.8284,
+      "Mar 2015": -1.0536,
+      "Mar 2016": -0.6674,
+      "Mar 2017": -0.9445,
+      "Mar 2018": -1.0299,
+      "Mar 2019": -0.9838,
+      "Mar 2020": -0.9041,
+      "Mar 2021": -1.1467,
+      "Mar 2022": -1.0674,
+      "Mar 2023": -0.7699,
+      "Mar 2024": -0.5512,
+      "Mar 2025": -0.3444
     },
     "Inventory Turnover": {
-      "Mar 2014": null,
-      "Mar 2015": null,
-      "Mar 2016": null,
-      "Mar 2017": null,
-      "Mar 2018": null,
-      "Mar 2019": null,
-      "Mar 2020": null,
-      "Mar 2021": null,
-      "Mar 2022": null,
-      "Mar 2023": null,
-      "Mar 2024": null,
-      "Mar 2025": null
+      "Mar 2014": -0.9241,
+      "Mar 2015": -0.8435,
+      "Mar 2016": -0.4444,
+      "Mar 2017": -0.811,
+      "Mar 2018": -0.8044,
+      "Mar 2019": -0.914,
+      "Mar 2020": -0.7439,
+      "Mar 2021": -1.0707,
+      "Mar 2022": -1.0476,
+      "Mar 2023": -1.0992,
+      "Mar 2024": -1.0394,
+      "Mar 2025": -0.9821
     },
     "Asset Turnover": {
       "Mar 2014": null,
@@ -226,13 +226,44 @@
     }
   ],
   "breakdown": {
-    "beneish_normalized": 13.48,
+    "beneish_normalized": 19.54,
     "altman_normalized": 0,
-    "industry_z_normalized": 0.0,
+    "industry_z_normalized": 29.19,
     "trend_break_normalized": 8.33
   },
   "sentiment_trend": {},
-  "peer_companies": [],
+  "peer_companies": [
+    {
+      "name": "Mahindra & Mahindra",
+      "sector": "Automobiles",
+      "composite_score": 26.36,
+      "fraud_risk": "Medium"
+    },
+    {
+      "name": "Bajaj Auto",
+      "sector": "Automobiles",
+      "composite_score": 9.69,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Eicher Motors",
+      "sector": "Automobiles",
+      "composite_score": 15.1,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "TVS Motor",
+      "sector": "Automobiles",
+      "composite_score": 5.64,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Motherson Sumi",
+      "sector": "Automobiles",
+      "composite_score": 17.67,
+      "fraud_risk": "Low"
+    }
+  ],
   "financial_data": {
     "profit_loss": {
       "Sales+": {

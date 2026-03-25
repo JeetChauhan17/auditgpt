@@ -2,14 +2,14 @@
   "company_id": "HCLTECH",
   "company_name": "HCL Technologies",
   "sector": "IT Services",
-  "composite_score": 9.45,
+  "composite_score": 10.12,
   "risk_level": "Low",
   "beneish": {
-    "m_score": -2.654,
+    "m_score": -2.6918,
     "manipulation_likely": false,
     "components": {
-      "DSRI": null,
-      "GMI": null,
+      "DSRI": 0.9529,
+      "GMI": 1.0104,
       "AQI": 0.9776,
       "SGI": 1.065,
       "DEPI": 1.0484,
@@ -122,17 +122,17 @@
       "Mar 2025": null
     },
     "Debtor Days": {
-      "Mar 2016": 0.9272,
+      "Mar 2016": 1.5439,
       "Mar 20169m": null,
-      "Mar 2017": -0.8729,
-      "Mar 2018": -0.2182,
-      "Mar 2019": 1.0,
-      "Mar 2020": 0.2182,
-      "Mar 2021": 1.1406,
-      "Mar 2022": 0.9272,
-      "Mar 2023": 0.9107,
-      "Mar 2024": 0.8511,
-      "Mar 2025": 0.3618
+      "Mar 2017": -0.2314,
+      "Mar 2018": 0.1277,
+      "Mar 2019": 0.7838,
+      "Mar 2020": 0.5897,
+      "Mar 2021": 1.6396,
+      "Mar 2022": 0.7826,
+      "Mar 2023": 1.1412,
+      "Mar 2024": 0.9616,
+      "Mar 2025": 0.7539
     },
     "Inventory Turnover": {
       "Mar 2016": null,
@@ -190,7 +190,7 @@
   "trend_breaks": {
     "breaks": {
       "Debtor Days": [
-        "Mar 2016"
+        "Mar 2017"
       ]
     },
     "total_count": 1
@@ -199,13 +199,13 @@
     {
       "flag_type": "Sudden change in Debtor Days",
       "severity": "Medium",
-      "first_appeared": 2016,
+      "first_appeared": 2017,
       "evolution": [
-        "Abnormal year-over-year change detected in Mar 2016"
+        "Abnormal year-over-year change detected in Mar 2017"
       ],
       "industry_context": "YoY change in Debtor Days exceeded 2 standard deviations from historical pattern",
       "citation": {
-        "filing_year": 2016,
+        "filing_year": 2017,
         "filing_type": "Ratios",
         "metric_name": "Debtor Days",
         "reported_value": 0,
@@ -214,9 +214,9 @@
     }
   ],
   "breakdown": {
-    "beneish_normalized": 6.92,
+    "beneish_normalized": 6.16,
     "altman_normalized": 0,
-    "industry_z_normalized": 24.76,
+    "industry_z_normalized": 28.52,
     "trend_break_normalized": 8.33
   },
   "sentiment_trend": {},
@@ -224,13 +224,31 @@
     {
       "name": "Tata Consultancy Services",
       "sector": "IT Services",
-      "composite_score": 9.49,
+      "composite_score": 10.39,
       "fraud_risk": "Low"
     },
     {
       "name": "Infosys",
       "sector": "IT Services",
-      "composite_score": 9.74,
+      "composite_score": 6.45,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Wipro",
+      "sector": "IT Services",
+      "composite_score": 10.25,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Tech Mahindra",
+      "sector": "IT Services",
+      "composite_score": 9.94,
+      "fraud_risk": "Low"
+    },
+    {
+      "name": "Persistent Systems",
+      "sector": "IT Services",
+      "composite_score": 14.75,
       "fraud_risk": "Low"
     }
   ],
