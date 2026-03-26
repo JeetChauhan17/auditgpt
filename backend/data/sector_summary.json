@@ -1,0 +1,182 @@
+[
+  {
+    "sector_name": "Banking",
+    "avg_risk_score": 29.03,
+    "company_count": 12,
+    "risk_level": "Medium"
+  },
+  {
+    "sector_name": "Power",
+    "avg_risk_score": 26.43,
+    "company_count": 7,
+    "risk_level": "Medium"
+  },
+  {
+    "sector_name": "Real Estate",
+    "avg_risk_score": 21.3,
+    "company_count": 5,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Financial Services",
+    "avg_risk_score": 20.39,
+    "company_count": 16,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Diversified",
+    "avg_risk_score": 19.13,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Retail",
+    "avg_risk_score": 18.96,
+    "company_count": 4,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Insurance",
+    "avg_risk_score": 18.86,
+    "company_count": 8,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Metals",
+    "avg_risk_score": 17.76,
+    "company_count": 8,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Defence",
+    "avg_risk_score": 17.51,
+    "company_count": 3,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Cement",
+    "avg_risk_score": 17.24,
+    "company_count": 6,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Construction",
+    "avg_risk_score": 16.85,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Oil & Gas",
+    "avg_risk_score": 16.19,
+    "company_count": 10,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Automobiles",
+    "avg_risk_score": 16.0,
+    "company_count": 13,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Mining",
+    "avg_risk_score": 14.63,
+    "company_count": 2,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Aviation",
+    "avg_risk_score": 13.73,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Pharmaceuticals",
+    "avg_risk_score": 12.82,
+    "company_count": 14,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Telecom",
+    "avg_risk_score": 12.07,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Consumer Durables",
+    "avg_risk_score": 11.55,
+    "company_count": 13,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Travel",
+    "avg_risk_score": 11.09,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Chemicals",
+    "avg_risk_score": 11.07,
+    "company_count": 11,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "IT Services",
+    "avg_risk_score": 10.75,
+    "company_count": 9,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Electronics",
+    "avg_risk_score": 10.23,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "FMCG",
+    "avg_risk_score": 10.11,
+    "company_count": 10,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Industrial",
+    "avg_risk_score": 9.68,
+    "company_count": 7,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Healthcare",
+    "avg_risk_score": 9.58,
+    "company_count": 5,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Building Materials",
+    "avg_risk_score": 9.1,
+    "company_count": 3,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Internet",
+    "avg_risk_score": 7.76,
+    "company_count": 3,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Logistics",
+    "avg_risk_score": 5.31,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Infrastructure",
+    "avg_risk_score": 5.0,
+    "company_count": 1,
+    "risk_level": "Low"
+  },
+  {
+    "sector_name": "Textiles",
+    "avg_risk_score": 0.0,
+    "company_count": 1,
+    "risk_level": "Low"
+  }
+]
