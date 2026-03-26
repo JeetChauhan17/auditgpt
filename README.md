@@ -1,5 +1,12 @@
 # AuditGPT
 
+![Live](https://img.shields.io/badge/Live-Demo-00ff88?style=flat-square&labelColor=070b12)
+![Stack](https://img.shields.io/badge/React_+_FastAPI-blue?style=flat-square&labelColor=070b12)
+![Python](https://img.shields.io/badge/Python-3.11-00d4ff?style=flat-square&labelColor=070b12)
+![LLM](https://img.shields.io/badge/Gemini_1.5_Flash-ffb020?style=flat-square&labelColor=070b12&color=ffb020)
+![Hackathon](https://img.shields.io/badge/IAR_Udaan_2026-Solo_·_30h-ff4455?style=flat-square&labelColor=070b12)
+![License](https://img.shields.io/badge/License-MIT-555?style=flat-square&labelColor=070b12)
+
 > **NSE Forensic Intelligence Engine** — quantitative fraud detection for Indian equity markets, powered by Beneish M-Score, Altman Z-Score, industry-adjusted anomaly detection, and Gemini LLM narrative synthesis.
 
 Built for **IAR Udaan Hackathon 2026 · Day 3 · Problem #01** · Solo · 30 hours · React + FastAPI
