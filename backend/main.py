@@ -49,6 +49,11 @@ try:
 except Exception as e:
     print(f"[ERROR] Failed to load API routes: {e}")
 
+@app.get("/debug/python")
+def debug_python():
+    import sys
+    return {"version": sys.version, "path": sys.executable}
+
     @app.get("/api/error")
     def route_error():
         return {"error": str(e)}
